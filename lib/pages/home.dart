@@ -79,7 +79,7 @@ class HomePage extends StatelessWidget {
                 runSpacing: 16.0, // Espacement vertical entre les lignes
                 children: List.generate(6, (index) {
                   return Container(
-                    width: (MediaQuery.of(context).size.width - 70) / 3, // 3 éléments par ligne
+                    width: (MediaQuery.of(context).size.width - 50) / 2, // 2 éléments par ligne
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(8.0),
                       color: Colors.grey[200],
